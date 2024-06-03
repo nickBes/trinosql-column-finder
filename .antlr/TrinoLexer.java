@@ -1,4 +1,4 @@
-// Generated from c:/Users/meyta/OneDrive/Desktop/trino column finder/trinosql-column-finder/TrinoLexer.g4 by ANTLR 4.13.1
+// Generated from /home/nick/Documents/projects/trinosql-column-finder/TrinoLexer.g4 by ANTLR 4.13.1
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;

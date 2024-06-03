@@ -1,4 +1,4 @@
-// Generated from c:/Users/meyta/OneDrive/Desktop/trino column finder/trinosql-column-finder/TrinoParser.g4 by ANTLR 4.13.1
+// Generated from /home/nick/Documents/projects/trinosql-column-finder/TrinoParser.g4 by ANTLR 4.13.1
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.*;
@@ -328,14 +328,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_parse; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterParse(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitParse(this);
-		}
 	}
 
 	public final ParseContext parse() throws RecognitionException {
@@ -399,14 +391,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_statements; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterStatements(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitStatements(this);
-		}
 	}
 
 	public final StatementsContext statements() throws RecognitionException {
@@ -492,14 +476,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_singleStatement; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSingleStatement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSingleStatement(this);
-		}
 	}
 
 	public final SingleStatementContext singleStatement() throws RecognitionException {
@@ -535,14 +511,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_standaloneExpression; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterStandaloneExpression(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitStandaloneExpression(this);
-		}
 	}
 
 	public final StandaloneExpressionContext standaloneExpression() throws RecognitionException {
@@ -578,14 +546,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_standalonePathSpecification; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterStandalonePathSpecification(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitStandalonePathSpecification(this);
-		}
 	}
 
 	public final StandalonePathSpecificationContext standalonePathSpecification() throws RecognitionException {
@@ -621,14 +581,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_standaloneType; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterStandaloneType(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitStandaloneType(this);
-		}
 	}
 
 	public final StandaloneTypeContext standaloneType() throws RecognitionException {
@@ -664,14 +616,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_standaloneRowPattern; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterStandaloneRowPattern(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitStandaloneRowPattern(this);
-		}
 	}
 
 	public final StandaloneRowPatternContext standaloneRowPattern() throws RecognitionException {
@@ -707,14 +651,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_standaloneFunctionSpecification; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterStandaloneFunctionSpecification(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitStandaloneFunctionSpecification(this);
-		}
 	}
 
 	public final StandaloneFunctionSpecificationContext standaloneFunctionSpecification() throws RecognitionException {
@@ -771,14 +707,6 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.COMMA_, i);
 		}
 		public ExplainContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterExplain(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitExplain(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class PrepareContext extends StatementContext {
@@ -791,14 +719,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(StatementContext.class,0);
 		}
 		public PrepareContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterPrepare(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitPrepare(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class DropMaterializedViewContext extends StatementContext {
@@ -811,14 +731,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode IF_() { return getToken(TrinoParser.IF_, 0); }
 		public TerminalNode EXISTS_() { return getToken(TrinoParser.EXISTS_, 0); }
 		public DropMaterializedViewContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDropMaterializedView(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDropMaterializedView(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SetMaterializedViewPropertiesContext extends StatementContext {
@@ -834,14 +746,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(PropertyAssignmentsContext.class,0);
 		}
 		public SetMaterializedViewPropertiesContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSetMaterializedViewProperties(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSetMaterializedViewProperties(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class UseContext extends StatementContext {
@@ -856,14 +760,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode DOT_() { return getToken(TrinoParser.DOT_, 0); }
 		public UseContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterUse(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitUse(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class DeallocateContext extends StatementContext {
@@ -873,14 +769,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(IdentifierContext.class,0);
 		}
 		public DeallocateContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDeallocate(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDeallocate(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class RenameTableContext extends StatementContext {
@@ -899,28 +787,12 @@ public class TrinoParser extends Parser {
 		public TerminalNode IF_() { return getToken(TrinoParser.IF_, 0); }
 		public TerminalNode EXISTS_() { return getToken(TrinoParser.EXISTS_, 0); }
 		public RenameTableContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterRenameTable(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitRenameTable(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CommitContext extends StatementContext {
 		public TerminalNode COMMIT_() { return getToken(TrinoParser.COMMIT_, 0); }
 		public TerminalNode WORK_() { return getToken(TrinoParser.WORK_, 0); }
 		public CommitContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCommit(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCommit(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CreateRoleContext extends StatementContext {
@@ -941,14 +813,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode IN_() { return getToken(TrinoParser.IN_, 0); }
 		public CreateRoleContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCreateRole(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCreateRole(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class DropColumnContext extends StatementContext {
@@ -973,14 +837,6 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.EXISTS_, i);
 		}
 		public DropColumnContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDropColumn(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDropColumn(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class DropViewContext extends StatementContext {
@@ -992,14 +848,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode IF_() { return getToken(TrinoParser.IF_, 0); }
 		public TerminalNode EXISTS_() { return getToken(TrinoParser.EXISTS_, 0); }
 		public DropViewContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDropView(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDropView(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ShowTablesContext extends StatementContext {
@@ -1021,14 +869,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode ESCAPE_() { return getToken(TrinoParser.ESCAPE_, 0); }
 		public ShowTablesContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterShowTables(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitShowTables(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SetViewAuthorizationContext extends StatementContext {
@@ -1044,14 +884,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(QualifiedNameContext.class,0);
 		}
 		public SetViewAuthorizationContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSetViewAuthorization(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSetViewAuthorization(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ShowCatalogsContext extends StatementContext {
@@ -1068,14 +900,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode ESCAPE_() { return getToken(TrinoParser.ESCAPE_, 0); }
 		public ShowCatalogsContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterShowCatalogs(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitShowCatalogs(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ShowRolesContext extends StatementContext {
@@ -1088,14 +912,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode FROM_() { return getToken(TrinoParser.FROM_, 0); }
 		public TerminalNode IN_() { return getToken(TrinoParser.IN_, 0); }
 		public ShowRolesContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterShowRoles(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitShowRoles(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class MergeContext extends StatementContext {
@@ -1123,14 +939,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode AS_() { return getToken(TrinoParser.AS_, 0); }
 		public MergeContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterMerge(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitMerge(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class RenameColumnContext extends StatementContext {
@@ -1160,14 +968,6 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.EXISTS_, i);
 		}
 		public RenameColumnContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterRenameColumn(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitRenameColumn(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CommentColumnContext extends StatementContext {
@@ -1183,14 +983,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode NULL_() { return getToken(TrinoParser.NULL_, 0); }
 		public CommentColumnContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCommentColumn(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCommentColumn(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class RevokeRolesContext extends StatementContext {
@@ -1223,14 +1015,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(IdentifierContext.class,0);
 		}
 		public RevokeRolesContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterRevokeRoles(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitRevokeRoles(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ShowCreateTableContext extends StatementContext {
@@ -1241,14 +1025,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(QualifiedNameContext.class,0);
 		}
 		public ShowCreateTableContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterShowCreateTable(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitShowCreateTable(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ShowColumnsContext extends StatementContext {
@@ -1272,14 +1048,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode DESCRIBE_() { return getToken(TrinoParser.DESCRIBE_, 0); }
 		public TerminalNode DESC_() { return getToken(TrinoParser.DESC_, 0); }
 		public ShowColumnsContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterShowColumns(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitShowColumns(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ShowRoleGrantsContext extends StatementContext {
@@ -1292,14 +1060,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode FROM_() { return getToken(TrinoParser.FROM_, 0); }
 		public TerminalNode IN_() { return getToken(TrinoParser.IN_, 0); }
 		public ShowRoleGrantsContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterShowRoleGrants(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitShowRoleGrants(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class AddColumnContext extends StatementContext {
@@ -1325,14 +1085,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode NOT_() { return getToken(TrinoParser.NOT_, 0); }
 		public AddColumnContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterAddColumn(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitAddColumn(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class DenyContext extends StatementContext {
@@ -1361,14 +1113,6 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.COMMA_, i);
 		}
 		public DenyContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDeny(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDeny(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ResetSessionContext extends StatementContext {
@@ -1378,14 +1122,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(QualifiedNameContext.class,0);
 		}
 		public ResetSessionContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterResetSession(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitResetSession(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class InsertIntoContext extends StatementContext {
@@ -1401,14 +1137,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(ColumnAliasesContext.class,0);
 		}
 		public InsertIntoContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterInsertInto(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitInsertInto(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ShowSessionContext extends StatementContext {
@@ -1425,14 +1153,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode ESCAPE_() { return getToken(TrinoParser.ESCAPE_, 0); }
 		public ShowSessionContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterShowSession(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitShowSession(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CreateSchemaContext extends StatementContext {
@@ -1453,14 +1173,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(PropertiesContext.class,0);
 		}
 		public CreateSchemaContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCreateSchema(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCreateSchema(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SetSessionAuthorizationContext extends StatementContext {
@@ -1471,14 +1183,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(AuthorizationUserContext.class,0);
 		}
 		public SetSessionAuthorizationContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSetSessionAuthorization(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSetSessionAuthorization(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ExplainAnalyzeContext extends StatementContext {
@@ -1489,14 +1193,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode VERBOSE_() { return getToken(TrinoParser.VERBOSE_, 0); }
 		public ExplainAnalyzeContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterExplainAnalyze(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitExplainAnalyze(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ExecuteContext extends StatementContext {
@@ -1516,14 +1212,6 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.COMMA_, i);
 		}
 		public ExecuteContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterExecute(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitExecute(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class RenameSchemaContext extends StatementContext {
@@ -1538,14 +1226,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(IdentifierContext.class,0);
 		}
 		public RenameSchemaContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterRenameSchema(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitRenameSchema(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class DropRoleContext extends StatementContext {
@@ -1561,14 +1241,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode IN_() { return getToken(TrinoParser.IN_, 0); }
 		public DropRoleContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDropRole(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDropRole(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class AnalyzeContext extends StatementContext {
@@ -1581,14 +1253,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(PropertiesContext.class,0);
 		}
 		public AnalyzeContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterAnalyze(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitAnalyze(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SetRoleContext extends StatementContext {
@@ -1606,14 +1270,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode IN_() { return getToken(TrinoParser.IN_, 0); }
 		public SetRoleContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSetRole(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSetRole(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CreateFunctionContext extends StatementContext {
@@ -1624,14 +1280,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode OR_() { return getToken(TrinoParser.OR_, 0); }
 		public TerminalNode REPLACE_() { return getToken(TrinoParser.REPLACE_, 0); }
 		public CreateFunctionContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCreateFunction(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCreateFunction(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class DropCatalogContext extends StatementContext {
@@ -1646,14 +1294,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode CASCADE_() { return getToken(TrinoParser.CASCADE_, 0); }
 		public TerminalNode RESTRICT_() { return getToken(TrinoParser.RESTRICT_, 0); }
 		public DropCatalogContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDropCatalog(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDropCatalog(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ShowGrantsContext extends StatementContext {
@@ -1665,14 +1305,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode TABLE_() { return getToken(TrinoParser.TABLE_, 0); }
 		public ShowGrantsContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterShowGrants(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitShowGrants(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class DropSchemaContext extends StatementContext {
@@ -1686,14 +1318,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode CASCADE_() { return getToken(TrinoParser.CASCADE_, 0); }
 		public TerminalNode RESTRICT_() { return getToken(TrinoParser.RESTRICT_, 0); }
 		public DropSchemaContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDropSchema(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDropSchema(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ResetSessionAuthorizationContext extends StatementContext {
@@ -1701,14 +1325,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode SESSION_() { return getToken(TrinoParser.SESSION_, 0); }
 		public TerminalNode AUTHORIZATION_() { return getToken(TrinoParser.AUTHORIZATION_, 0); }
 		public ResetSessionAuthorizationContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterResetSessionAuthorization(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitResetSessionAuthorization(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SetTableAuthorizationContext extends StatementContext {
@@ -1724,14 +1340,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(QualifiedNameContext.class,0);
 		}
 		public SetTableAuthorizationContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSetTableAuthorization(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSetTableAuthorization(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ShowCreateViewContext extends StatementContext {
@@ -1742,14 +1350,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(QualifiedNameContext.class,0);
 		}
 		public ShowCreateViewContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterShowCreateView(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitShowCreateView(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CreateTableContext extends StatementContext {
@@ -1784,14 +1384,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(PropertiesContext.class,0);
 		}
 		public CreateTableContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCreateTable(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCreateTable(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class StartTransactionContext extends StatementContext {
@@ -1808,14 +1400,6 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.COMMA_, i);
 		}
 		public StartTransactionContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterStartTransaction(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitStartTransaction(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CreateTableAsSelectContext extends StatementContext {
@@ -1852,14 +1436,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode DATA_() { return getToken(TrinoParser.DATA_, 0); }
 		public TerminalNode NO_() { return getToken(TrinoParser.NO_, 0); }
 		public CreateTableAsSelectContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCreateTableAsSelect(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCreateTableAsSelect(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CommentViewContext extends StatementContext {
@@ -1875,14 +1451,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode NULL_() { return getToken(TrinoParser.NULL_, 0); }
 		public CommentViewContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCommentView(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCommentView(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ShowStatsContext extends StatementContext {
@@ -1893,14 +1461,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(QualifiedNameContext.class,0);
 		}
 		public ShowStatsContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterShowStats(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitShowStats(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ShowCreateSchemaContext extends StatementContext {
@@ -1911,14 +1471,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(QualifiedNameContext.class,0);
 		}
 		public ShowCreateSchemaContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterShowCreateSchema(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitShowCreateSchema(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class DropFunctionContext extends StatementContext {
@@ -1930,14 +1482,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode IF_() { return getToken(TrinoParser.IF_, 0); }
 		public TerminalNode EXISTS_() { return getToken(TrinoParser.EXISTS_, 0); }
 		public DropFunctionContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDropFunction(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDropFunction(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class RevokeContext extends StatementContext {
@@ -1969,14 +1513,6 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.COMMA_, i);
 		}
 		public RevokeContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterRevoke(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitRevoke(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class UpdateContext extends StatementContext {
@@ -2001,14 +1537,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(BooleanExpressionContext.class,0);
 		}
 		public UpdateContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterUpdate(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitUpdate(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class TableExecuteContext extends StatementContext {
@@ -2041,14 +1569,6 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.COMMA_, i);
 		}
 		public TableExecuteContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterTableExecute(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitTableExecute(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class DeleteContext extends StatementContext {
@@ -2062,14 +1582,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(BooleanExpressionContext.class,0);
 		}
 		public DeleteContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDelete(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDelete(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class DescribeInputContext extends StatementContext {
@@ -2079,14 +1591,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(IdentifierContext.class,0);
 		}
 		public DescribeInputContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDescribeInput(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDescribeInput(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ShowStatsForQueryContext extends StatementContext {
@@ -2099,14 +1603,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode RPAREN_() { return getToken(TrinoParser.RPAREN_, 0); }
 		public ShowStatsForQueryContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterShowStatsForQuery(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitShowStatsForQuery(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SetColumnTypeContext extends StatementContext {
@@ -2133,14 +1629,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode IF_() { return getToken(TrinoParser.IF_, 0); }
 		public TerminalNode EXISTS_() { return getToken(TrinoParser.EXISTS_, 0); }
 		public SetColumnTypeContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSetColumnType(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSetColumnType(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class StatementDefaultContext extends StatementContext {
@@ -2148,14 +1636,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(RootQueryContext.class,0);
 		}
 		public StatementDefaultContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterStatementDefault(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitStatementDefault(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SetTimeZoneContext extends StatementContext {
@@ -2167,14 +1647,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(ExpressionContext.class,0);
 		}
 		public SetTimeZoneContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSetTimeZone(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSetTimeZone(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class TruncateTableContext extends StatementContext {
@@ -2184,14 +1656,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(QualifiedNameContext.class,0);
 		}
 		public TruncateTableContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterTruncateTable(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitTruncateTable(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CreateMaterializedViewContext extends StatementContext {
@@ -2224,14 +1688,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(PropertiesContext.class,0);
 		}
 		public CreateMaterializedViewContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCreateMaterializedView(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCreateMaterializedView(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SetSessionContext extends StatementContext {
@@ -2245,14 +1701,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(ExpressionContext.class,0);
 		}
 		public SetSessionContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSetSession(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSetSession(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CreateViewContext extends StatementContext {
@@ -2275,14 +1723,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode DEFINER_() { return getToken(TrinoParser.DEFINER_, 0); }
 		public TerminalNode INVOKER_() { return getToken(TrinoParser.INVOKER_, 0); }
 		public CreateViewContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCreateView(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCreateView(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class RenameMaterializedViewContext extends StatementContext {
@@ -2302,14 +1742,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode IF_() { return getToken(TrinoParser.IF_, 0); }
 		public TerminalNode EXISTS_() { return getToken(TrinoParser.EXISTS_, 0); }
 		public RenameMaterializedViewContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterRenameMaterializedView(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitRenameMaterializedView(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ShowSchemasContext extends StatementContext {
@@ -2331,14 +1763,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode ESCAPE_() { return getToken(TrinoParser.ESCAPE_, 0); }
 		public ShowSchemasContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterShowSchemas(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitShowSchemas(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class DropTableContext extends StatementContext {
@@ -2350,14 +1774,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode IF_() { return getToken(TrinoParser.IF_, 0); }
 		public TerminalNode EXISTS_() { return getToken(TrinoParser.EXISTS_, 0); }
 		public DropTableContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDropTable(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDropTable(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SetSchemaAuthorizationContext extends StatementContext {
@@ -2372,28 +1788,12 @@ public class TrinoParser extends Parser {
 			return getRuleContext(PrincipalContext.class,0);
 		}
 		public SetSchemaAuthorizationContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSetSchemaAuthorization(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSetSchemaAuthorization(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class RollbackContext extends StatementContext {
 		public TerminalNode ROLLBACK_() { return getToken(TrinoParser.ROLLBACK_, 0); }
 		public TerminalNode WORK_() { return getToken(TrinoParser.WORK_, 0); }
 		public RollbackContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterRollback(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitRollback(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CommentTableContext extends StatementContext {
@@ -2409,14 +1809,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode NULL_() { return getToken(TrinoParser.NULL_, 0); }
 		public CommentTableContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCommentTable(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCommentTable(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ExecuteImmediateContext extends StatementContext {
@@ -2437,14 +1829,6 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.COMMA_, i);
 		}
 		public ExecuteImmediateContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterExecuteImmediate(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitExecuteImmediate(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class RenameViewContext extends StatementContext {
@@ -2461,14 +1845,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(QualifiedNameContext.class,i);
 		}
 		public RenameViewContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterRenameView(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitRenameView(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SetPathContext extends StatementContext {
@@ -2478,14 +1854,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(PathSpecificationContext.class,0);
 		}
 		public SetPathContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSetPath(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSetPath(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class GrantRolesContext extends StatementContext {
@@ -2518,14 +1886,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(IdentifierContext.class,0);
 		}
 		public GrantRolesContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterGrantRoles(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitGrantRoles(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CallContext extends StatementContext {
@@ -2546,14 +1906,6 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.COMMA_, i);
 		}
 		public CallContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCall(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCall(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class RefreshMaterializedViewContext extends StatementContext {
@@ -2564,14 +1916,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(QualifiedNameContext.class,0);
 		}
 		public RefreshMaterializedViewContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterRefreshMaterializedView(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitRefreshMaterializedView(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ShowCreateMaterializedViewContext extends StatementContext {
@@ -2583,14 +1927,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(QualifiedNameContext.class,0);
 		}
 		public ShowCreateMaterializedViewContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterShowCreateMaterializedView(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitShowCreateMaterializedView(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CreateCatalogContext extends StatementContext {
@@ -2621,14 +1957,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(PropertiesContext.class,0);
 		}
 		public CreateCatalogContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCreateCatalog(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCreateCatalog(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ShowFunctionsContext extends StatementContext {
@@ -2650,14 +1978,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode ESCAPE_() { return getToken(TrinoParser.ESCAPE_, 0); }
 		public ShowFunctionsContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterShowFunctions(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitShowFunctions(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class DescribeOutputContext extends StatementContext {
@@ -2667,14 +1987,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(IdentifierContext.class,0);
 		}
 		public DescribeOutputContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDescribeOutput(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDescribeOutput(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class GrantContext extends StatementContext {
@@ -2708,14 +2020,6 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.COMMA_, i);
 		}
 		public GrantContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterGrant(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitGrant(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SetTablePropertiesContext extends StatementContext {
@@ -2731,14 +2035,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(QualifiedNameContext.class,0);
 		}
 		public SetTablePropertiesContext(StatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSetTableProperties(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSetTableProperties(this);
-		}
 	}
 
 	public final StatementContext statement() throws RecognitionException {
@@ -5581,14 +4877,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_rootQuery; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterRootQuery(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitRootQuery(this);
-		}
 	}
 
 	public final RootQueryContext rootQuery() throws RecognitionException {
@@ -5639,14 +4927,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_withFunction; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterWithFunction(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitWithFunction(this);
-		}
 	}
 
 	public final WithFunctionContext withFunction() throws RecognitionException {
@@ -5701,14 +4981,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_query; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterQuery(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitQuery(this);
-		}
 	}
 
 	public final QueryContext query() throws RecognitionException {
@@ -5761,14 +5033,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_with; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterWith(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitWith(this);
-		}
 	}
 
 	public final WithContext with() throws RecognitionException {
@@ -5833,14 +5097,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_tableElement; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterTableElement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitTableElement(this);
-		}
 	}
 
 	public final TableElementContext tableElement() throws RecognitionException {
@@ -6117,14 +5373,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_columnDefinition; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterColumnDefinition(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitColumnDefinition(this);
-		}
 	}
 
 	public final ColumnDefinitionContext columnDefinition() throws RecognitionException {
@@ -6201,14 +5449,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_likeClause; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterLikeClause(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitLikeClause(this);
-		}
 	}
 
 	public final LikeClauseContext likeClause() throws RecognitionException {
@@ -6267,14 +5507,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_properties; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterProperties(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitProperties(this);
-		}
 	}
 
 	public final PropertiesContext properties() throws RecognitionException {
@@ -6318,14 +5550,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_propertyAssignments; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterPropertyAssignments(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitPropertyAssignments(this);
-		}
 	}
 
 	public final PropertyAssignmentsContext propertyAssignments() throws RecognitionException {
@@ -6379,14 +5603,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_property; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterProperty(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitProperty(this);
-		}
 	}
 
 	public final PropertyContext property() throws RecognitionException {
@@ -6430,14 +5646,6 @@ public class TrinoParser extends Parser {
 	public static class DefaultPropertyValueContext extends PropertyValueContext {
 		public TerminalNode DEFAULT_() { return getToken(TrinoParser.DEFAULT_, 0); }
 		public DefaultPropertyValueContext(PropertyValueContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDefaultPropertyValue(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDefaultPropertyValue(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class NonDefaultPropertyValueContext extends PropertyValueContext {
@@ -6445,14 +5653,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(ExpressionContext.class,0);
 		}
 		public NonDefaultPropertyValueContext(PropertyValueContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterNonDefaultPropertyValue(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitNonDefaultPropertyValue(this);
-		}
 	}
 
 	public final PropertyValueContext propertyValue() throws RecognitionException {
@@ -6540,14 +5740,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_queryNoWith; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterQueryNoWith(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitQueryNoWith(this);
-		}
 	}
 
 	public final QueryNoWithContext queryNoWith() throws RecognitionException {
@@ -6716,14 +5908,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_limitRowCount; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterLimitRowCount(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitLimitRowCount(this);
-		}
 	}
 
 	public final LimitRowCountContext limitRowCount() throws RecognitionException {
@@ -6771,14 +5955,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_rowCount; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterRowCount(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitRowCount(this);
-		}
 	}
 
 	public final RowCountContext rowCount() throws RecognitionException {
@@ -6829,14 +6005,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(QueryPrimaryContext.class,0);
 		}
 		public QueryTermDefaultContext(QueryTermContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterQueryTermDefault(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitQueryTermDefault(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SetOperationContext extends QueryTermContext {
@@ -6856,14 +6024,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode UNION_() { return getToken(TrinoParser.UNION_, 0); }
 		public TerminalNode EXCEPT_() { return getToken(TrinoParser.EXCEPT_, 0); }
 		public SetOperationContext(QueryTermContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSetOperation(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSetOperation(this);
-		}
 	}
 
 	public final QueryTermContext queryTerm() throws RecognitionException {
@@ -6997,14 +6157,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode RPAREN_() { return getToken(TrinoParser.RPAREN_, 0); }
 		public SubqueryContext(QueryPrimaryContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSubquery(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSubquery(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class QueryPrimaryDefaultContext extends QueryPrimaryContext {
@@ -7012,14 +6164,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(QuerySpecificationContext.class,0);
 		}
 		public QueryPrimaryDefaultContext(QueryPrimaryContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterQueryPrimaryDefault(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitQueryPrimaryDefault(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class TableContext extends QueryPrimaryContext {
@@ -7028,14 +6172,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(QualifiedNameContext.class,0);
 		}
 		public TableContext(QueryPrimaryContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterTable(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitTable(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class InlineTableContext extends QueryPrimaryContext {
@@ -7051,14 +6187,6 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.COMMA_, i);
 		}
 		public InlineTableContext(QueryPrimaryContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterInlineTable(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitInlineTable(this);
-		}
 	}
 
 	public final QueryPrimaryContext queryPrimary() throws RecognitionException {
@@ -7158,14 +6286,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_sortItem; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSortItem(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSortItem(this);
-		}
 	}
 
 	public final SortItemContext sortItem() throws RecognitionException {
@@ -7279,14 +6399,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_querySpecification; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterQuerySpecification(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitQuerySpecification(this);
-		}
 	}
 
 	public final QuerySpecificationContext querySpecification() throws RecognitionException {
@@ -7458,14 +6570,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_groupBy; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterGroupBy(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitGroupBy(this);
-		}
 	}
 
 	public final GroupByContext groupBy() throws RecognitionException {
@@ -7547,14 +6651,6 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.COMMA_, i);
 		}
 		public MultipleGroupingSetsContext(GroupingElementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterMultipleGroupingSets(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitMultipleGroupingSets(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SingleGroupingSetContext extends GroupingElementContext {
@@ -7562,14 +6658,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(GroupingSetContext.class,0);
 		}
 		public SingleGroupingSetContext(GroupingElementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSingleGroupingSet(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSingleGroupingSet(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CubeContext extends GroupingElementContext {
@@ -7587,14 +6675,6 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.COMMA_, i);
 		}
 		public CubeContext(GroupingElementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCube(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCube(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class RollupContext extends GroupingElementContext {
@@ -7612,14 +6692,6 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.COMMA_, i);
 		}
 		public RollupContext(GroupingElementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterRollup(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitRollup(this);
-		}
 	}
 
 	public final GroupingElementContext groupingElement() throws RecognitionException {
@@ -7777,14 +6849,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_groupingSet; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterGroupingSet(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitGroupingSet(this);
-		}
 	}
 
 	public final GroupingSetContext groupingSet() throws RecognitionException {
@@ -7866,14 +6930,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_windowDefinition; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterWindowDefinition(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitWindowDefinition(this);
-		}
 	}
 
 	public final WindowDefinitionContext windowDefinition() throws RecognitionException {
@@ -7942,14 +6998,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_windowSpecification; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterWindowSpecification(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitWindowSpecification(this);
-		}
 	}
 
 	public final WindowSpecificationContext windowSpecification() throws RecognitionException {
@@ -8073,14 +7121,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_namedQuery; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterNamedQuery(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitNamedQuery(this);
-		}
 	}
 
 	public final NamedQueryContext namedQuery() throws RecognitionException {
@@ -8131,14 +7171,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_setQuantifier; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSetQuantifier(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSetQuantifier(this);
-		}
 	}
 
 	public final SetQuantifierContext setQuantifier() throws RecognitionException {
@@ -8195,14 +7227,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(ColumnAliasesContext.class,0);
 		}
 		public SelectAllContext(SelectItemContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSelectAll(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSelectAll(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SelectSingleContext extends SelectItemContext {
@@ -8214,14 +7238,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode AS_() { return getToken(TrinoParser.AS_, 0); }
 		public SelectSingleContext(SelectItemContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSelectSingle(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSelectSingle(this);
-		}
 	}
 
 	public final SelectItemContext selectItem() throws RecognitionException {
@@ -8323,14 +7339,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(SampledRelationContext.class,0);
 		}
 		public RelationDefaultContext(RelationContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterRelationDefault(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitRelationDefault(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class JoinRelationContext extends RelationContext {
@@ -8356,14 +7364,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(SampledRelationContext.class,0);
 		}
 		public JoinRelationContext(RelationContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterJoinRelation(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitJoinRelation(this);
-		}
 	}
 
 	public final RelationContext relation() throws RecognitionException {
@@ -8479,14 +7479,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_joinType; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterJoinType(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitJoinType(this);
-		}
 	}
 
 	public final JoinTypeContext joinType() throws RecognitionException {
@@ -8578,14 +7570,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_joinCriteria; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterJoinCriteria(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitJoinCriteria(this);
-		}
 	}
 
 	public final JoinCriteriaContext joinCriteria() throws RecognitionException {
@@ -8668,14 +7652,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_sampledRelation; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSampledRelation(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSampledRelation(this);
-		}
 	}
 
 	public final SampledRelationContext sampledRelation() throws RecognitionException {
@@ -8725,14 +7701,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_sampleType; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSampleType(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSampleType(this);
-		}
 	}
 
 	public final SampleTypeContext sampleType() throws RecognitionException {
@@ -8774,14 +7742,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_trimsSpecification; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterTrimsSpecification(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitTrimsSpecification(this);
-		}
 	}
 
 	public final TrimsSpecificationContext trimsSpecification() throws RecognitionException {
@@ -8828,14 +7788,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_listAggOverflowBehavior; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterListAggOverflowBehavior(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitListAggOverflowBehavior(this);
-		}
 	}
 
 	public final ListAggOverflowBehaviorContext listAggOverflowBehavior() throws RecognitionException {
@@ -8896,14 +7848,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_listaggCountIndication; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterListaggCountIndication(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitListaggCountIndication(this);
-		}
 	}
 
 	public final ListaggCountIndicationContext listaggCountIndication() throws RecognitionException {
@@ -9022,14 +7966,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_patternRecognition; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterPatternRecognition(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitPatternRecognition(this);
-		}
 	}
 
 	public final PatternRecognitionContext patternRecognition() throws RecognitionException {
@@ -9299,14 +8235,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_measureDefinition; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterMeasureDefinition(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitMeasureDefinition(this);
-		}
 	}
 
 	public final MeasureDefinitionContext measureDefinition() throws RecognitionException {
@@ -9349,14 +8277,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_rowsPerMatch; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterRowsPerMatch(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitRowsPerMatch(this);
-		}
 	}
 
 	public final RowsPerMatchContext rowsPerMatch() throws RecognitionException {
@@ -9431,14 +8351,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_emptyMatchHandling; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterEmptyMatchHandling(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitEmptyMatchHandling(this);
-		}
 	}
 
 	public final EmptyMatchHandlingContext emptyMatchHandling() throws RecognitionException {
@@ -9512,14 +8424,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_skipTo; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSkipTo(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSkipTo(this);
-		}
 	}
 
 	public final SkipToContext skipTo() throws RecognitionException {
@@ -9624,14 +8528,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_subsetDefinition; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSubsetDefinition(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSubsetDefinition(this);
-		}
 	}
 
 	public final SubsetDefinitionContext subsetDefinition() throws RecognitionException {
@@ -9695,14 +8591,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_variableDefinition; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterVariableDefinition(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitVariableDefinition(this);
-		}
 	}
 
 	public final VariableDefinitionContext variableDefinition() throws RecognitionException {
@@ -9746,14 +8634,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_aliasedRelation; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterAliasedRelation(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitAliasedRelation(this);
-		}
 	}
 
 	public final AliasedRelationContext aliasedRelation() throws RecognitionException {
@@ -9826,14 +8706,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_columnAliases; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterColumnAliases(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitColumnAliases(this);
-		}
 	}
 
 	public final ColumnAliasesContext columnAliases() throws RecognitionException {
@@ -9898,14 +8770,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode RPAREN_() { return getToken(TrinoParser.RPAREN_, 0); }
 		public SubqueryRelationContext(RelationPrimaryContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSubqueryRelation(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSubqueryRelation(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ParenthesizedRelationContext extends RelationPrimaryContext {
@@ -9915,14 +8779,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode RPAREN_() { return getToken(TrinoParser.RPAREN_, 0); }
 		public ParenthesizedRelationContext(RelationPrimaryContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterParenthesizedRelation(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitParenthesizedRelation(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class UnnestContext extends RelationPrimaryContext {
@@ -9942,14 +8798,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode WITH_() { return getToken(TrinoParser.WITH_, 0); }
 		public TerminalNode ORDINALITY_() { return getToken(TrinoParser.ORDINALITY_, 0); }
 		public UnnestContext(RelationPrimaryContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterUnnest(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitUnnest(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class TableFunctionInvocationContext extends RelationPrimaryContext {
@@ -9960,14 +8808,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode RPAREN_() { return getToken(TrinoParser.RPAREN_, 0); }
 		public TableFunctionInvocationContext(RelationPrimaryContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterTableFunctionInvocation(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitTableFunctionInvocation(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class LateralContext extends RelationPrimaryContext {
@@ -9978,14 +8818,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode RPAREN_() { return getToken(TrinoParser.RPAREN_, 0); }
 		public LateralContext(RelationPrimaryContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterLateral(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitLateral(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class TableNameContext extends RelationPrimaryContext {
@@ -9996,14 +8828,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(QueryPeriodContext.class,0);
 		}
 		public TableNameContext(RelationPrimaryContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterTableName(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitTableName(this);
-		}
 	}
 
 	public final RelationPrimaryContext relationPrimary() throws RecognitionException {
@@ -10167,14 +8991,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_tableFunctionCall; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterTableFunctionCall(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitTableFunctionCall(this);
-		}
 	}
 
 	public final TableFunctionCallContext tableFunctionCall() throws RecognitionException {
@@ -10276,14 +9092,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_tableFunctionArgument; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterTableFunctionArgument(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitTableFunctionArgument(this);
-		}
 	}
 
 	public final TableFunctionArgumentContext tableFunctionArgument() throws RecognitionException {
@@ -10382,14 +9190,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_tableArgument; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterTableArgument(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitTableArgument(this);
-		}
 	}
 
 	public final TableArgumentContext tableArgument() throws RecognitionException {
@@ -10577,14 +9377,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(ColumnAliasesContext.class,0);
 		}
 		public TableArgumentQueryContext(TableArgumentRelationContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterTableArgumentQuery(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitTableArgumentQuery(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class TableArgumentTableContext extends TableArgumentRelationContext {
@@ -10602,14 +9394,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(ColumnAliasesContext.class,0);
 		}
 		public TableArgumentTableContext(TableArgumentRelationContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterTableArgumentTable(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitTableArgumentTable(this);
-		}
 	}
 
 	public final TableArgumentRelationContext tableArgumentRelation() throws RecognitionException {
@@ -10743,14 +9527,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_descriptorArgument; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDescriptorArgument(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDescriptorArgument(this);
-		}
 	}
 
 	public final DescriptorArgumentContext descriptorArgument() throws RecognitionException {
@@ -10834,14 +9610,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_descriptorField; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDescriptorField(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDescriptorField(this);
-		}
 	}
 
 	public final DescriptorFieldContext descriptorField() throws RecognitionException {
@@ -10894,14 +9662,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_copartitionTables; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCopartitionTables(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCopartitionTables(this);
-		}
 	}
 
 	public final CopartitionTablesContext copartitionTables() throws RecognitionException {
@@ -10959,14 +9719,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_expression; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterExpression(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitExpression(this);
-		}
 	}
 
 	public final ExpressionContext expression() throws RecognitionException {
@@ -11009,14 +9761,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(BooleanExpressionContext.class,0);
 		}
 		public LogicalNotContext(BooleanExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterLogicalNot(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitLogicalNot(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class PredicatedContext extends BooleanExpressionContext {
@@ -11027,14 +9771,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(Predicate_Context.class,0);
 		}
 		public PredicatedContext(BooleanExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterPredicated(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitPredicated(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class OrContext extends BooleanExpressionContext {
@@ -11046,14 +9782,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode OR_() { return getToken(TrinoParser.OR_, 0); }
 		public OrContext(BooleanExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterOr(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitOr(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class AndContext extends BooleanExpressionContext {
@@ -11065,14 +9793,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode AND_() { return getToken(TrinoParser.AND_, 0); }
 		public AndContext(BooleanExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterAnd(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitAnd(this);
-		}
 	}
 
 	public final BooleanExpressionContext booleanExpression() throws RecognitionException {
@@ -11456,14 +10176,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(ValueExpressionContext.class,0);
 		}
 		public ComparisonContext(Predicate_Context ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterComparison(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitComparison(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class LikeContext extends Predicate_Context {
@@ -11479,14 +10191,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode NOT_() { return getToken(TrinoParser.NOT_, 0); }
 		public TerminalNode ESCAPE_() { return getToken(TrinoParser.ESCAPE_, 0); }
 		public LikeContext(Predicate_Context ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterLike(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitLike(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class InSubqueryContext extends Predicate_Context {
@@ -11498,14 +10202,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode RPAREN_() { return getToken(TrinoParser.RPAREN_, 0); }
 		public TerminalNode NOT_() { return getToken(TrinoParser.NOT_, 0); }
 		public InSubqueryContext(Predicate_Context ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterInSubquery(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitInSubquery(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class DistinctFromContext extends Predicate_Context {
@@ -11518,14 +10214,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode NOT_() { return getToken(TrinoParser.NOT_, 0); }
 		public DistinctFromContext(Predicate_Context ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDistinctFrom(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDistinctFrom(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class InListContext extends Predicate_Context {
@@ -11544,14 +10232,6 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.COMMA_, i);
 		}
 		public InListContext(Predicate_Context ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterInList(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitInList(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class NullPredicateContext extends Predicate_Context {
@@ -11559,14 +10239,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode NULL_() { return getToken(TrinoParser.NULL_, 0); }
 		public TerminalNode NOT_() { return getToken(TrinoParser.NOT_, 0); }
 		public NullPredicateContext(Predicate_Context ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterNullPredicate(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitNullPredicate(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class BetweenContext extends Predicate_Context {
@@ -11582,14 +10254,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode NOT_() { return getToken(TrinoParser.NOT_, 0); }
 		public BetweenContext(Predicate_Context ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterBetween(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitBetween(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class QuantifiedComparisonContext extends Predicate_Context {
@@ -11605,14 +10269,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode RPAREN_() { return getToken(TrinoParser.RPAREN_, 0); }
 		public QuantifiedComparisonContext(Predicate_Context ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterQuantifiedComparison(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitQuantifiedComparison(this);
-		}
 	}
 
 	public final Predicate_Context predicate_() throws RecognitionException {
@@ -11844,14 +10500,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(PrimaryExpressionContext.class,0);
 		}
 		public ValueExpressionDefaultContext(ValueExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterValueExpressionDefault(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitValueExpressionDefault(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ConcatenationContext extends ValueExpressionContext {
@@ -11865,14 +10513,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(ValueExpressionContext.class,i);
 		}
 		public ConcatenationContext(ValueExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterConcatenation(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitConcatenation(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ArithmeticBinaryContext extends ValueExpressionContext {
@@ -11891,14 +10531,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode PLUS_() { return getToken(TrinoParser.PLUS_, 0); }
 		public TerminalNode MINUS_() { return getToken(TrinoParser.MINUS_, 0); }
 		public ArithmeticBinaryContext(ValueExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterArithmeticBinary(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitArithmeticBinary(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ArithmeticUnaryContext extends ValueExpressionContext {
@@ -11909,14 +10541,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode MINUS_() { return getToken(TrinoParser.MINUS_, 0); }
 		public TerminalNode PLUS_() { return getToken(TrinoParser.PLUS_, 0); }
 		public ArithmeticUnaryContext(ValueExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterArithmeticUnary(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitArithmeticUnary(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class AtTimeZoneContext extends ValueExpressionContext {
@@ -11928,14 +10552,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(TimeZoneSpecifierContext.class,0);
 		}
 		public AtTimeZoneContext(ValueExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterAtTimeZone(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitAtTimeZone(this);
-		}
 	}
 
 	public final ValueExpressionContext valueExpression() throws RecognitionException {
@@ -12113,14 +10729,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(IdentifierContext.class,0);
 		}
 		public DereferenceContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDereference(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDereference(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class TypeConstructorContext extends PrimaryExpressionContext {
@@ -12133,14 +10741,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode DOUBLE_() { return getToken(TrinoParser.DOUBLE_, 0); }
 		public TerminalNode PRECISION_() { return getToken(TrinoParser.PRECISION_, 0); }
 		public TypeConstructorContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterTypeConstructor(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitTypeConstructor(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class JsonValueContext extends PrimaryExpressionContext {
@@ -12169,14 +10769,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(JsonValueBehaviorContext.class,i);
 		}
 		public JsonValueContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterJsonValue(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitJsonValue(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SpecialDateTimeFunctionContext extends PrimaryExpressionContext {
@@ -12191,14 +10783,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode LOCALTIME_() { return getToken(TrinoParser.LOCALTIME_, 0); }
 		public TerminalNode LOCALTIMESTAMP_() { return getToken(TrinoParser.LOCALTIMESTAMP_, 0); }
 		public SpecialDateTimeFunctionContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSpecialDateTimeFunction(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSpecialDateTimeFunction(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SubstringContext extends PrimaryExpressionContext {
@@ -12214,14 +10798,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode RPAREN_() { return getToken(TrinoParser.RPAREN_, 0); }
 		public TerminalNode FOR_() { return getToken(TrinoParser.FOR_, 0); }
 		public SubstringContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSubstring(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSubstring(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CastContext extends PrimaryExpressionContext {
@@ -12237,14 +10813,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode RPAREN_() { return getToken(TrinoParser.RPAREN_, 0); }
 		public TerminalNode TRY_CAST_() { return getToken(TrinoParser.TRY_CAST_, 0); }
 		public CastContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCast(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCast(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class LambdaContext extends PrimaryExpressionContext {
@@ -12265,14 +10833,6 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.COMMA_, i);
 		}
 		public LambdaContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterLambda(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitLambda(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ParenthesizedExpressionContext extends PrimaryExpressionContext {
@@ -12282,14 +10842,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode RPAREN_() { return getToken(TrinoParser.RPAREN_, 0); }
 		public ParenthesizedExpressionContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterParenthesizedExpression(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitParenthesizedExpression(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class TrimContext extends PrimaryExpressionContext {
@@ -12310,27 +10862,11 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode COMMA_() { return getToken(TrinoParser.COMMA_, 0); }
 		public TrimContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterTrim(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitTrim(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ParameterContext extends PrimaryExpressionContext {
 		public TerminalNode QUESTION_MARK_() { return getToken(TrinoParser.QUESTION_MARK_, 0); }
 		public ParameterContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterParameter(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitParameter(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class NormalizeContext extends PrimaryExpressionContext {
@@ -12345,14 +10881,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(NormalFormContext.class,0);
 		}
 		public NormalizeContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterNormalize(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitNormalize(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class JsonObjectContext extends PrimaryExpressionContext {
@@ -12388,14 +10916,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode KEYS_() { return getToken(TrinoParser.KEYS_, 0); }
 		public JsonObjectContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterJsonObject(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitJsonObject(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class IntervalLiteralContext extends PrimaryExpressionContext {
@@ -12403,14 +10923,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(IntervalContext.class,0);
 		}
 		public IntervalLiteralContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterIntervalLiteral(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitIntervalLiteral(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class NumericLiteralContext extends PrimaryExpressionContext {
@@ -12418,14 +10930,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(NumberContext.class,0);
 		}
 		public NumericLiteralContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterNumericLiteral(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitNumericLiteral(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class BooleanLiteralContext extends PrimaryExpressionContext {
@@ -12433,14 +10937,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(BooleanValueContext.class,0);
 		}
 		public BooleanLiteralContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterBooleanLiteral(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitBooleanLiteral(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class JsonArrayContext extends PrimaryExpressionContext {
@@ -12472,14 +10968,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(JsonRepresentationContext.class,0);
 		}
 		public JsonArrayContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterJsonArray(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitJsonArray(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SimpleCaseContext extends PrimaryExpressionContext {
@@ -12501,14 +10989,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode ELSE_() { return getToken(TrinoParser.ELSE_, 0); }
 		public SimpleCaseContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSimpleCase(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSimpleCase(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ColumnReferenceContext extends PrimaryExpressionContext {
@@ -12516,27 +10996,11 @@ public class TrinoParser extends Parser {
 			return getRuleContext(IdentifierContext.class,0);
 		}
 		public ColumnReferenceContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterColumnReference(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitColumnReference(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class NullLiteralContext extends PrimaryExpressionContext {
 		public TerminalNode NULL_() { return getToken(TrinoParser.NULL_, 0); }
 		public NullLiteralContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterNullLiteral(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitNullLiteral(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class RowConstructorContext extends PrimaryExpressionContext {
@@ -12554,14 +11018,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode ROW_() { return getToken(TrinoParser.ROW_, 0); }
 		public RowConstructorContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterRowConstructor(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitRowConstructor(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SubscriptContext extends PrimaryExpressionContext {
@@ -12576,14 +11032,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(ValueExpressionContext.class,0);
 		}
 		public SubscriptContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSubscript(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSubscript(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class JsonExistsContext extends PrimaryExpressionContext {
@@ -12599,28 +11047,12 @@ public class TrinoParser extends Parser {
 		public TerminalNode ON_() { return getToken(TrinoParser.ON_, 0); }
 		public TerminalNode ERROR_() { return getToken(TrinoParser.ERROR_, 0); }
 		public JsonExistsContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterJsonExists(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitJsonExists(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CurrentPathContext extends PrimaryExpressionContext {
 		public Token name;
 		public TerminalNode CURRENT_PATH_() { return getToken(TrinoParser.CURRENT_PATH_, 0); }
 		public CurrentPathContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCurrentPath(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCurrentPath(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SubqueryExpressionContext extends PrimaryExpressionContext {
@@ -12630,41 +11062,17 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode RPAREN_() { return getToken(TrinoParser.RPAREN_, 0); }
 		public SubqueryExpressionContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSubqueryExpression(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSubqueryExpression(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class BinaryLiteralContext extends PrimaryExpressionContext {
 		public TerminalNode BINARY_LITERAL_() { return getToken(TrinoParser.BINARY_LITERAL_, 0); }
 		public BinaryLiteralContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterBinaryLiteral(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitBinaryLiteral(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CurrentUserContext extends PrimaryExpressionContext {
 		public Token name;
 		public TerminalNode CURRENT_USER_() { return getToken(TrinoParser.CURRENT_USER_, 0); }
 		public CurrentUserContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCurrentUser(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCurrentUser(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class JsonQueryContext extends PrimaryExpressionContext {
@@ -12706,14 +11114,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode SCALAR_() { return getToken(TrinoParser.SCALAR_, 0); }
 		public TerminalNode TEXT_STRING_() { return getToken(TrinoParser.TEXT_STRING_, 0); }
 		public JsonQueryContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterJsonQuery(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitJsonQuery(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class MeasureContext extends PrimaryExpressionContext {
@@ -12724,14 +11124,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(OverContext.class,0);
 		}
 		public MeasureContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterMeasure(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitMeasure(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ExtractContext extends PrimaryExpressionContext {
@@ -12746,14 +11138,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode RPAREN_() { return getToken(TrinoParser.RPAREN_, 0); }
 		public ExtractContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterExtract(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitExtract(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class StringLiteralContext extends PrimaryExpressionContext {
@@ -12761,14 +11145,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(String_Context.class,0);
 		}
 		public StringLiteralContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterStringLiteral(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitStringLiteral(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ArrayConstructorContext extends PrimaryExpressionContext {
@@ -12786,14 +11162,6 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.COMMA_, i);
 		}
 		public ArrayConstructorContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterArrayConstructor(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitArrayConstructor(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class FunctionCallContext extends PrimaryExpressionContext {
@@ -12842,28 +11210,12 @@ public class TrinoParser extends Parser {
 			return getRuleContext(NullTreatmentContext.class,0);
 		}
 		public FunctionCallContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterFunctionCall(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitFunctionCall(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CurrentSchemaContext extends PrimaryExpressionContext {
 		public Token name;
 		public TerminalNode CURRENT_SCHEMA_() { return getToken(TrinoParser.CURRENT_SCHEMA_, 0); }
 		public CurrentSchemaContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCurrentSchema(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCurrentSchema(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ExistsContext extends PrimaryExpressionContext {
@@ -12874,14 +11226,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode RPAREN_() { return getToken(TrinoParser.RPAREN_, 0); }
 		public ExistsContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterExists(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitExists(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class PositionContext extends PrimaryExpressionContext {
@@ -12896,14 +11240,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode IN_() { return getToken(TrinoParser.IN_, 0); }
 		public TerminalNode RPAREN_() { return getToken(TrinoParser.RPAREN_, 0); }
 		public PositionContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterPosition(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitPosition(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ListaggContext extends PrimaryExpressionContext {
@@ -12949,14 +11285,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(FilterContext.class,0);
 		}
 		public ListaggContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterListagg(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitListagg(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SearchedCaseContext extends PrimaryExpressionContext {
@@ -12974,28 +11302,12 @@ public class TrinoParser extends Parser {
 			return getRuleContext(ExpressionContext.class,0);
 		}
 		public SearchedCaseContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSearchedCase(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSearchedCase(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CurrentCatalogContext extends PrimaryExpressionContext {
 		public Token name;
 		public TerminalNode CURRENT_CATALOG_() { return getToken(TrinoParser.CURRENT_CATALOG_, 0); }
 		public CurrentCatalogContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCurrentCatalog(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCurrentCatalog(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class GroupingOperationContext extends PrimaryExpressionContext {
@@ -13013,14 +11325,6 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.COMMA_, i);
 		}
 		public GroupingOperationContext(PrimaryExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterGroupingOperation(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitGroupingOperation(this);
-		}
 	}
 
 	public final PrimaryExpressionContext primaryExpression() throws RecognitionException {
@@ -14576,14 +12880,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_jsonPathInvocation; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterJsonPathInvocation(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitJsonPathInvocation(this);
-		}
 	}
 
 	public final JsonPathInvocationContext jsonPathInvocation() throws RecognitionException {
@@ -14653,14 +12949,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_jsonValueExpression; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterJsonValueExpression(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitJsonValueExpression(this);
-		}
 	}
 
 	public final JsonValueExpressionContext jsonValueExpression() throws RecognitionException {
@@ -14708,14 +12996,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_jsonRepresentation; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterJsonRepresentation(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitJsonRepresentation(this);
-		}
 	}
 
 	public final JsonRepresentationContext jsonRepresentation() throws RecognitionException {
@@ -14773,14 +13053,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_jsonArgument; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterJsonArgument(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitJsonArgument(this);
-		}
 	}
 
 	public final JsonArgumentContext jsonArgument() throws RecognitionException {
@@ -14818,14 +13090,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_jsonExistsErrorBehavior; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterJsonExistsErrorBehavior(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitJsonExistsErrorBehavior(this);
-		}
 	}
 
 	public final JsonExistsErrorBehaviorContext jsonExistsErrorBehavior() throws RecognitionException {
@@ -14870,14 +13134,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_jsonValueBehavior; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterJsonValueBehavior(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitJsonValueBehavior(this);
-		}
 	}
 
 	public final JsonValueBehaviorContext jsonValueBehavior() throws RecognitionException {
@@ -14936,14 +13192,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_jsonQueryWrapperBehavior; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterJsonQueryWrapperBehavior(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitJsonQueryWrapperBehavior(this);
-		}
 	}
 
 	public final JsonQueryWrapperBehaviorContext jsonQueryWrapperBehavior() throws RecognitionException {
@@ -15032,14 +13280,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_jsonQueryBehavior; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterJsonQueryBehavior(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitJsonQueryBehavior(this);
-		}
 	}
 
 	public final JsonQueryBehaviorContext jsonQueryBehavior() throws RecognitionException {
@@ -15111,14 +13351,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_jsonObjectMember; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterJsonObjectMember(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitJsonObjectMember(this);
-		}
 	}
 
 	public final JsonObjectMemberContext jsonObjectMember() throws RecognitionException {
@@ -15181,14 +13413,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_processingMode; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterProcessingMode(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitProcessingMode(this);
-		}
 	}
 
 	public final ProcessingModeContext processingMode() throws RecognitionException {
@@ -15230,14 +13454,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_nullTreatment; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterNullTreatment(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitNullTreatment(this);
-		}
 	}
 
 	public final NullTreatmentContext nullTreatment() throws RecognitionException {
@@ -15298,27 +13514,11 @@ public class TrinoParser extends Parser {
 		public TerminalNode UESCAPE_() { return getToken(TrinoParser.UESCAPE_, 0); }
 		public TerminalNode STRING_() { return getToken(TrinoParser.STRING_, 0); }
 		public UnicodeStringLiteralContext(String_Context ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterUnicodeStringLiteral(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitUnicodeStringLiteral(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class BasicStringLiteralContext extends String_Context {
 		public TerminalNode STRING_() { return getToken(TrinoParser.STRING_, 0); }
 		public BasicStringLiteralContext(String_Context ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterBasicStringLiteral(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitBasicStringLiteral(this);
-		}
 	}
 
 	public final String_Context string_() throws RecognitionException {
@@ -15391,14 +13591,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(IntervalContext.class,0);
 		}
 		public TimeZoneIntervalContext(TimeZoneSpecifierContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterTimeZoneInterval(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitTimeZoneInterval(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class TimeZoneStringContext extends TimeZoneSpecifierContext {
@@ -15408,14 +13600,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(String_Context.class,0);
 		}
 		public TimeZoneStringContext(TimeZoneSpecifierContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterTimeZoneString(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitTimeZoneString(this);
-		}
 	}
 
 	public final TimeZoneSpecifierContext timeZoneSpecifier() throws RecognitionException {
@@ -15474,14 +13658,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_comparisonOperator; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterComparisonOperator(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitComparisonOperator(this);
-		}
 	}
 
 	public final ComparisonOperatorContext comparisonOperator() throws RecognitionException {
@@ -15523,14 +13699,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_comparisonQuantifier; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterComparisonQuantifier(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitComparisonQuantifier(this);
-		}
 	}
 
 	public final ComparisonQuantifierContext comparisonQuantifier() throws RecognitionException {
@@ -15571,14 +13739,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_booleanValue; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterBooleanValue(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitBooleanValue(this);
-		}
 	}
 
 	public final BooleanValueContext booleanValue() throws RecognitionException {
@@ -15633,14 +13793,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_interval; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterInterval(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitInterval(this);
-		}
 	}
 
 	public final IntervalContext interval() throws RecognitionException {
@@ -15712,14 +13864,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_intervalField; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterIntervalField(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitIntervalField(this);
-		}
 	}
 
 	public final IntervalFieldContext intervalField() throws RecognitionException {
@@ -15762,14 +13906,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_normalForm; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterNormalForm(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitNormalForm(this);
-		}
 	}
 
 	public final NormalFormContext normalForm() throws RecognitionException {
@@ -15830,14 +13966,6 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.COMMA_, i);
 		}
 		public RowTypeContext(TypeContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterRowType(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitRowType(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class IntervalTypeContext extends TypeContext {
@@ -15852,14 +13980,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode TO_() { return getToken(TrinoParser.TO_, 0); }
 		public IntervalTypeContext(TypeContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterIntervalType(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitIntervalType(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ArrayTypeContext extends TypeContext {
@@ -15871,28 +13991,12 @@ public class TrinoParser extends Parser {
 		public TerminalNode INTEGER_VALUE_() { return getToken(TrinoParser.INTEGER_VALUE_, 0); }
 		public TerminalNode RSQUARE_() { return getToken(TrinoParser.RSQUARE_, 0); }
 		public ArrayTypeContext(TypeContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterArrayType(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitArrayType(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class DoublePrecisionTypeContext extends TypeContext {
 		public TerminalNode DOUBLE_() { return getToken(TrinoParser.DOUBLE_, 0); }
 		public TerminalNode PRECISION_() { return getToken(TrinoParser.PRECISION_, 0); }
 		public DoublePrecisionTypeContext(TypeContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDoublePrecisionType(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDoublePrecisionType(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class LegacyArrayTypeContext extends TypeContext {
@@ -15903,14 +14007,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode GT_() { return getToken(TrinoParser.GT_, 0); }
 		public LegacyArrayTypeContext(TypeContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterLegacyArrayType(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitLegacyArrayType(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class GenericTypeContext extends TypeContext {
@@ -15930,14 +14026,6 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.COMMA_, i);
 		}
 		public GenericTypeContext(TypeContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterGenericType(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitGenericType(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class DateTimeTypeContext extends TypeContext {
@@ -15957,14 +14045,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode WITH_() { return getToken(TrinoParser.WITH_, 0); }
 		public DateTimeTypeContext(TypeContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDateTimeType(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDateTimeType(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class LegacyMapTypeContext extends TypeContext {
@@ -15981,14 +14061,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(TypeContext.class,i);
 		}
 		public LegacyMapTypeContext(TypeContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterLegacyMapType(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitLegacyMapType(this);
-		}
 	}
 
 	public final TypeContext type() throws RecognitionException {
@@ -16344,14 +14416,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_rowField; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterRowField(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitRowField(this);
-		}
 	}
 
 	public final RowFieldContext rowField() throws RecognitionException {
@@ -16400,14 +14464,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_typeParameter; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterTypeParameter(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitTypeParameter(this);
-		}
 	}
 
 	public final TypeParameterContext typeParameter() throws RecognitionException {
@@ -16678,14 +14734,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_whenClause; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterWhenClause(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitWhenClause(this);
-		}
 	}
 
 	public final WhenClauseContext whenClause() throws RecognitionException {
@@ -16728,14 +14776,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_filter; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterFilter(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitFilter(this);
-		}
 	}
 
 	public final FilterContext filter() throws RecognitionException {
@@ -16818,14 +14858,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(IdentifierContext.class,i);
 		}
 		public MergeInsertContext(MergeCaseContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterMergeInsert(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitMergeInsert(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class MergeUpdateContext extends MergeCaseContext {
@@ -16861,14 +14893,6 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.COMMA_, i);
 		}
 		public MergeUpdateContext(MergeCaseContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterMergeUpdate(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitMergeUpdate(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class MergeDeleteContext extends MergeCaseContext {
@@ -16882,14 +14906,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(ExpressionContext.class,0);
 		}
 		public MergeDeleteContext(MergeCaseContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterMergeDelete(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitMergeDelete(this);
-		}
 	}
 
 	public final MergeCaseContext mergeCase() throws RecognitionException {
@@ -17099,14 +15115,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_over; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterOver(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitOver(this);
-		}
 	}
 
 	public final OverContext over() throws RecognitionException {
@@ -17415,14 +15423,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_windowFrame; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterWindowFrame(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitWindowFrame(this);
-		}
 	}
 
 	public final WindowFrameContext windowFrame() throws RecognitionException {
@@ -17599,14 +15599,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_frameExtent; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterFrameExtent(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitFrameExtent(this);
-		}
 	}
 
 	public final FrameExtentContext frameExtent() throws RecognitionException {
@@ -17722,14 +15714,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode PRECEDING_() { return getToken(TrinoParser.PRECEDING_, 0); }
 		public TerminalNode FOLLOWING_() { return getToken(TrinoParser.FOLLOWING_, 0); }
 		public BoundedFrameContext(FrameBoundContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterBoundedFrame(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitBoundedFrame(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class UnboundedFrameContext extends FrameBoundContext {
@@ -17738,28 +15722,12 @@ public class TrinoParser extends Parser {
 		public TerminalNode PRECEDING_() { return getToken(TrinoParser.PRECEDING_, 0); }
 		public TerminalNode FOLLOWING_() { return getToken(TrinoParser.FOLLOWING_, 0); }
 		public UnboundedFrameContext(FrameBoundContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterUnboundedFrame(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitUnboundedFrame(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CurrentRowBoundContext extends FrameBoundContext {
 		public TerminalNode CURRENT_() { return getToken(TrinoParser.CURRENT_, 0); }
 		public TerminalNode ROW_() { return getToken(TrinoParser.ROW_, 0); }
 		public CurrentRowBoundContext(FrameBoundContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCurrentRowBound(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCurrentRowBound(this);
-		}
 	}
 
 	public final FrameBoundContext frameBound() throws RecognitionException {
@@ -17853,14 +15821,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(PatternQuantifierContext.class,0);
 		}
 		public QuantifiedPrimaryContext(RowPatternContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterQuantifiedPrimary(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitQuantifiedPrimary(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class PatternConcatenationContext extends RowPatternContext {
@@ -17871,14 +15831,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(RowPatternContext.class,i);
 		}
 		public PatternConcatenationContext(RowPatternContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterPatternConcatenation(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitPatternConcatenation(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class PatternAlternationContext extends RowPatternContext {
@@ -17890,14 +15842,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode VBAR_() { return getToken(TrinoParser.VBAR_, 0); }
 		public PatternAlternationContext(RowPatternContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterPatternAlternation(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitPatternAlternation(this);
-		}
 	}
 
 	public final RowPatternContext rowPattern() throws RecognitionException {
@@ -18015,27 +15959,11 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.COMMA_, i);
 		}
 		public PatternPermutationContext(PatternPrimaryContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterPatternPermutation(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitPatternPermutation(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class PartitionEndAnchorContext extends PatternPrimaryContext {
 		public TerminalNode DOLLAR_() { return getToken(TrinoParser.DOLLAR_, 0); }
 		public PartitionEndAnchorContext(PatternPrimaryContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterPartitionEndAnchor(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitPartitionEndAnchor(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class PatternVariableContext extends PatternPrimaryContext {
@@ -18043,14 +15971,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(IdentifierContext.class,0);
 		}
 		public PatternVariableContext(PatternPrimaryContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterPatternVariable(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitPatternVariable(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ExcludedPatternContext extends PatternPrimaryContext {
@@ -18060,41 +15980,17 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode RCURLYHYPHEN_() { return getToken(TrinoParser.RCURLYHYPHEN_, 0); }
 		public ExcludedPatternContext(PatternPrimaryContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterExcludedPattern(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitExcludedPattern(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class PartitionStartAnchorContext extends PatternPrimaryContext {
 		public TerminalNode CARET_() { return getToken(TrinoParser.CARET_, 0); }
 		public PartitionStartAnchorContext(PatternPrimaryContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterPartitionStartAnchor(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitPartitionStartAnchor(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class EmptyPatternContext extends PatternPrimaryContext {
 		public TerminalNode LPAREN_() { return getToken(TrinoParser.LPAREN_, 0); }
 		public TerminalNode RPAREN_() { return getToken(TrinoParser.RPAREN_, 0); }
 		public EmptyPatternContext(PatternPrimaryContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterEmptyPattern(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitEmptyPattern(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class GroupedPatternContext extends PatternPrimaryContext {
@@ -18104,14 +16000,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode RPAREN_() { return getToken(TrinoParser.RPAREN_, 0); }
 		public GroupedPatternContext(PatternPrimaryContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterGroupedPattern(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitGroupedPattern(this);
-		}
 	}
 
 	public final PatternPrimaryContext patternPrimary() throws RecognitionException {
@@ -18241,14 +16129,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode ASTERISK_() { return getToken(TrinoParser.ASTERISK_, 0); }
 		public TerminalNode QUESTION_MARK_() { return getToken(TrinoParser.QUESTION_MARK_, 0); }
 		public ZeroOrMoreQuantifierContext(PatternQuantifierContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterZeroOrMoreQuantifier(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitZeroOrMoreQuantifier(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class OneOrMoreQuantifierContext extends PatternQuantifierContext {
@@ -18256,14 +16136,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode PLUS_() { return getToken(TrinoParser.PLUS_, 0); }
 		public TerminalNode QUESTION_MARK_() { return getToken(TrinoParser.QUESTION_MARK_, 0); }
 		public OneOrMoreQuantifierContext(PatternQuantifierContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterOneOrMoreQuantifier(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitOneOrMoreQuantifier(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ZeroOrOneQuantifierContext extends PatternQuantifierContext {
@@ -18273,14 +16145,6 @@ public class TrinoParser extends Parser {
 			return getToken(TrinoParser.QUESTION_MARK_, i);
 		}
 		public ZeroOrOneQuantifierContext(PatternQuantifierContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterZeroOrOneQuantifier(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitZeroOrOneQuantifier(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class RangeQuantifierContext extends PatternQuantifierContext {
@@ -18297,14 +16161,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode QUESTION_MARK_() { return getToken(TrinoParser.QUESTION_MARK_, 0); }
 		public TerminalNode COMMA_() { return getToken(TrinoParser.COMMA_, 0); }
 		public RangeQuantifierContext(PatternQuantifierContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterRangeQuantifier(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitRangeQuantifier(this);
-		}
 	}
 
 	public final PatternQuantifierContext patternQuantifier() throws RecognitionException {
@@ -18459,14 +16315,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_updateAssignment; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterUpdateAssignment(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitUpdateAssignment(this);
-		}
 	}
 
 	public final UpdateAssignmentContext updateAssignment() throws RecognitionException {
@@ -18514,14 +16362,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode GRAPHVIZ_() { return getToken(TrinoParser.GRAPHVIZ_, 0); }
 		public TerminalNode JSON_() { return getToken(TrinoParser.JSON_, 0); }
 		public ExplainFormatContext(ExplainOptionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterExplainFormat(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitExplainFormat(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ExplainTypeContext extends ExplainOptionContext {
@@ -18532,14 +16372,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode VALIDATE_() { return getToken(TrinoParser.VALIDATE_, 0); }
 		public TerminalNode IO_() { return getToken(TrinoParser.IO_, 0); }
 		public ExplainTypeContext(ExplainOptionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterExplainType(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitExplainType(this);
-		}
 	}
 
 	public final ExplainOptionContext explainOption() throws RecognitionException {
@@ -18622,14 +16454,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode ONLY_() { return getToken(TrinoParser.ONLY_, 0); }
 		public TerminalNode WRITE_() { return getToken(TrinoParser.WRITE_, 0); }
 		public TransactionAccessModeContext(TransactionModeContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterTransactionAccessMode(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitTransactionAccessMode(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class IsolationLevelContext extends TransactionModeContext {
@@ -18639,14 +16463,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(LevelOfIsolationContext.class,0);
 		}
 		public IsolationLevelContext(TransactionModeContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterIsolationLevel(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitIsolationLevel(this);
-		}
 	}
 
 	public final TransactionModeContext transactionMode() throws RecognitionException {
@@ -18720,55 +16536,23 @@ public class TrinoParser extends Parser {
 		public TerminalNode READ_() { return getToken(TrinoParser.READ_, 0); }
 		public TerminalNode UNCOMMITTED_() { return getToken(TrinoParser.UNCOMMITTED_, 0); }
 		public ReadUncommittedContext(LevelOfIsolationContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterReadUncommitted(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitReadUncommitted(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SerializableContext extends LevelOfIsolationContext {
 		public TerminalNode SERIALIZABLE_() { return getToken(TrinoParser.SERIALIZABLE_, 0); }
 		public SerializableContext(LevelOfIsolationContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSerializable(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSerializable(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ReadCommittedContext extends LevelOfIsolationContext {
 		public TerminalNode READ_() { return getToken(TrinoParser.READ_, 0); }
 		public TerminalNode COMMITTED_() { return getToken(TrinoParser.COMMITTED_, 0); }
 		public ReadCommittedContext(LevelOfIsolationContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterReadCommitted(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitReadCommitted(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class RepeatableReadContext extends LevelOfIsolationContext {
 		public TerminalNode REPEATABLE_() { return getToken(TrinoParser.REPEATABLE_, 0); }
 		public TerminalNode READ_() { return getToken(TrinoParser.READ_, 0); }
 		public RepeatableReadContext(LevelOfIsolationContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterRepeatableRead(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitRepeatableRead(this);
-		}
 	}
 
 	public final LevelOfIsolationContext levelOfIsolation() throws RecognitionException {
@@ -18847,14 +16631,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(ExpressionContext.class,0);
 		}
 		public PositionalArgumentContext(CallArgumentContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterPositionalArgument(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitPositionalArgument(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class NamedArgumentContext extends CallArgumentContext {
@@ -18866,14 +16642,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(ExpressionContext.class,0);
 		}
 		public NamedArgumentContext(CallArgumentContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterNamedArgument(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitNamedArgument(this);
-		}
 	}
 
 	public final CallArgumentContext callArgument() throws RecognitionException {
@@ -18938,14 +16706,6 @@ public class TrinoParser extends Parser {
 		}
 		public TerminalNode DOT_() { return getToken(TrinoParser.DOT_, 0); }
 		public QualifiedArgumentContext(PathElementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterQualifiedArgument(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitQualifiedArgument(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class UnqualifiedArgumentContext extends PathElementContext {
@@ -18953,14 +16713,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(IdentifierContext.class,0);
 		}
 		public UnqualifiedArgumentContext(PathElementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterUnqualifiedArgument(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitUnqualifiedArgument(this);
-		}
 	}
 
 	public final PathElementContext pathElement() throws RecognitionException {
@@ -19019,14 +16771,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_pathSpecification; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterPathSpecification(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitPathSpecification(this);
-		}
 	}
 
 	public final PathSpecificationContext pathSpecification() throws RecognitionException {
@@ -19089,14 +16833,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_functionSpecification; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterFunctionSpecification(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitFunctionSpecification(this);
-		}
 	}
 
 	public final FunctionSpecificationContext functionSpecification() throws RecognitionException {
@@ -19164,14 +16900,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_functionDeclaration; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterFunctionDeclaration(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitFunctionDeclaration(this);
-		}
 	}
 
 	public final FunctionDeclarationContext functionDeclaration() throws RecognitionException {
@@ -19238,14 +16966,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_parameterDeclaration; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterParameterDeclaration(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitParameterDeclaration(this);
-		}
 	}
 
 	public final ParameterDeclarationContext parameterDeclaration() throws RecognitionException {
@@ -19289,14 +17009,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_returnsClause; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterReturnsClause(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitReturnsClause(this);
-		}
 	}
 
 	public final ReturnsClauseContext returnsClause() throws RecognitionException {
@@ -19344,14 +17056,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode ON_() { return getToken(TrinoParser.ON_, 0); }
 		public TerminalNode INPUT_() { return getToken(TrinoParser.INPUT_, 0); }
 		public ReturnsNullOnNullInputCharacteristicContext(RoutineCharacteristicContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterReturnsNullOnNullInputCharacteristic(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitReturnsNullOnNullInputCharacteristic(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SecurityCharacteristicContext extends RoutineCharacteristicContext {
@@ -19359,14 +17063,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode DEFINER_() { return getToken(TrinoParser.DEFINER_, 0); }
 		public TerminalNode INVOKER_() { return getToken(TrinoParser.INVOKER_, 0); }
 		public SecurityCharacteristicContext(RoutineCharacteristicContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSecurityCharacteristic(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSecurityCharacteristic(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CalledOnNullInputCharacteristicContext extends RoutineCharacteristicContext {
@@ -19375,14 +17071,6 @@ public class TrinoParser extends Parser {
 		public TerminalNode NULL_() { return getToken(TrinoParser.NULL_, 0); }
 		public TerminalNode INPUT_() { return getToken(TrinoParser.INPUT_, 0); }
 		public CalledOnNullInputCharacteristicContext(RoutineCharacteristicContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCalledOnNullInputCharacteristic(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCalledOnNullInputCharacteristic(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CommentCharacteristicContext extends RoutineCharacteristicContext {
@@ -19391,14 +17079,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(String_Context.class,0);
 		}
 		public CommentCharacteristicContext(RoutineCharacteristicContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCommentCharacteristic(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCommentCharacteristic(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class LanguageCharacteristicContext extends RoutineCharacteristicContext {
@@ -19407,28 +17087,12 @@ public class TrinoParser extends Parser {
 			return getRuleContext(IdentifierContext.class,0);
 		}
 		public LanguageCharacteristicContext(RoutineCharacteristicContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterLanguageCharacteristic(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitLanguageCharacteristic(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class DeterministicCharacteristicContext extends RoutineCharacteristicContext {
 		public TerminalNode DETERMINISTIC_() { return getToken(TrinoParser.DETERMINISTIC_, 0); }
 		public TerminalNode NOT_() { return getToken(TrinoParser.NOT_, 0); }
 		public DeterministicCharacteristicContext(RoutineCharacteristicContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDeterministicCharacteristic(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDeterministicCharacteristic(this);
-		}
 	}
 
 	public final RoutineCharacteristicContext routineCharacteristic() throws RecognitionException {
@@ -19573,14 +17237,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(IdentifierContext.class,0);
 		}
 		public WhileStatementContext(ControlStatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterWhileStatement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitWhileStatement(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SimpleCaseStatementContext extends ControlStatementContext {
@@ -19602,14 +17258,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(ElseClauseContext.class,0);
 		}
 		public SimpleCaseStatementContext(ControlStatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSimpleCaseStatement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSimpleCaseStatement(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class RepeatStatementContext extends ControlStatementContext {
@@ -19631,14 +17279,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(IdentifierContext.class,0);
 		}
 		public RepeatStatementContext(ControlStatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterRepeatStatement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitRepeatStatement(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class AssignmentStatementContext extends ControlStatementContext {
@@ -19651,14 +17291,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(ExpressionContext.class,0);
 		}
 		public AssignmentStatementContext(ControlStatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterAssignmentStatement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitAssignmentStatement(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class LeaveStatementContext extends ControlStatementContext {
@@ -19667,14 +17299,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(IdentifierContext.class,0);
 		}
 		public LeaveStatementContext(ControlStatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterLeaveStatement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitLeaveStatement(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CompoundStatementContext extends ControlStatementContext {
@@ -19694,14 +17318,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(SqlStatementListContext.class,0);
 		}
 		public CompoundStatementContext(ControlStatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCompoundStatement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCompoundStatement(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class IterateStatementContext extends ControlStatementContext {
@@ -19710,14 +17326,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(IdentifierContext.class,0);
 		}
 		public IterateStatementContext(ControlStatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterIterateStatement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitIterateStatement(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class LoopStatementContext extends ControlStatementContext {
@@ -19735,14 +17343,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(IdentifierContext.class,0);
 		}
 		public LoopStatementContext(ControlStatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterLoopStatement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitLoopStatement(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class ReturnStatementContext extends ControlStatementContext {
@@ -19751,14 +17351,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(ValueExpressionContext.class,0);
 		}
 		public ReturnStatementContext(ControlStatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterReturnStatement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitReturnStatement(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class IfStatementContext extends ControlStatementContext {
@@ -19784,14 +17376,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(ElseClauseContext.class,0);
 		}
 		public IfStatementContext(ControlStatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterIfStatement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitIfStatement(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SearchedCaseStatementContext extends ControlStatementContext {
@@ -19810,14 +17394,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(ElseClauseContext.class,0);
 		}
 		public SearchedCaseStatementContext(ControlStatementContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSearchedCaseStatement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSearchedCaseStatement(this);
-		}
 	}
 
 	public final ControlStatementContext controlStatement() throws RecognitionException {
@@ -20140,14 +17716,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_caseStatementWhenClause; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCaseStatementWhenClause(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCaseStatementWhenClause(this);
-		}
 	}
 
 	public final CaseStatementWhenClauseContext caseStatementWhenClause() throws RecognitionException {
@@ -20191,14 +17759,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_elseIfClause; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterElseIfClause(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitElseIfClause(this);
-		}
 	}
 
 	public final ElseIfClauseContext elseIfClause() throws RecognitionException {
@@ -20238,14 +17798,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_elseClause; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterElseClause(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitElseClause(this);
-		}
 	}
 
 	public final ElseClauseContext elseClause() throws RecognitionException {
@@ -20295,14 +17847,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_variableDeclaration; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterVariableDeclaration(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitVariableDeclaration(this);
-		}
 	}
 
 	public final VariableDeclarationContext variableDeclaration() throws RecognitionException {
@@ -20375,14 +17919,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_sqlStatementList; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSqlStatementList(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSqlStatementList(this);
-		}
 	}
 
 	public final SqlStatementListContext sqlStatementList() throws RecognitionException {
@@ -20438,14 +17974,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_privilege; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterPrivilege(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitPrivilege(this);
-		}
 	}
 
 	public final PrivilegeContext privilege() throws RecognitionException {
@@ -20494,14 +18022,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_qualifiedName; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterQualifiedName(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitQualifiedName(this);
-		}
 	}
 
 	public final QualifiedNameContext qualifiedName() throws RecognitionException {
@@ -20560,14 +18080,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_queryPeriod; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterQueryPeriod(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitQueryPeriod(this);
-		}
 	}
 
 	public final QueryPeriodContext queryPeriod() throws RecognitionException {
@@ -20607,14 +18119,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_rangeType; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterRangeType(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitRangeType(this);
-		}
 	}
 
 	public final RangeTypeContext rangeType() throws RecognitionException {
@@ -20663,14 +18167,6 @@ public class TrinoParser extends Parser {
 	public static class CurrentUserGrantorContext extends GrantorContext {
 		public TerminalNode CURRENT_USER_() { return getToken(TrinoParser.CURRENT_USER_, 0); }
 		public CurrentUserGrantorContext(GrantorContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCurrentUserGrantor(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCurrentUserGrantor(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class SpecifiedPrincipalContext extends GrantorContext {
@@ -20678,27 +18174,11 @@ public class TrinoParser extends Parser {
 			return getRuleContext(PrincipalContext.class,0);
 		}
 		public SpecifiedPrincipalContext(GrantorContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterSpecifiedPrincipal(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitSpecifiedPrincipal(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class CurrentRoleGrantorContext extends GrantorContext {
 		public TerminalNode CURRENT_ROLE_() { return getToken(TrinoParser.CURRENT_ROLE_, 0); }
 		public CurrentRoleGrantorContext(GrantorContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterCurrentRoleGrantor(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitCurrentRoleGrantor(this);
-		}
 	}
 
 	public final GrantorContext grantor() throws RecognitionException {
@@ -20981,14 +18461,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(IdentifierContext.class,0);
 		}
 		public UnspecifiedPrincipalContext(PrincipalContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterUnspecifiedPrincipal(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitUnspecifiedPrincipal(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class UserPrincipalContext extends PrincipalContext {
@@ -20997,14 +18469,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(IdentifierContext.class,0);
 		}
 		public UserPrincipalContext(PrincipalContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterUserPrincipal(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitUserPrincipal(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class RolePrincipalContext extends PrincipalContext {
@@ -21013,14 +18477,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(IdentifierContext.class,0);
 		}
 		public RolePrincipalContext(PrincipalContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterRolePrincipal(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitRolePrincipal(this);
-		}
 	}
 
 	public final PrincipalContext principal() throws RecognitionException {
@@ -21087,14 +18543,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_roles; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterRoles(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitRoles(this);
-		}
 	}
 
 	public final RolesContext roles() throws RecognitionException {
@@ -21151,40 +18599,16 @@ public class TrinoParser extends Parser {
 	public static class BackQuotedIdentifierContext extends IdentifierContext {
 		public TerminalNode BACKQUOTED_IDENTIFIER_() { return getToken(TrinoParser.BACKQUOTED_IDENTIFIER_, 0); }
 		public BackQuotedIdentifierContext(IdentifierContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterBackQuotedIdentifier(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitBackQuotedIdentifier(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class QuotedIdentifierContext extends IdentifierContext {
 		public TerminalNode QUOTED_IDENTIFIER_() { return getToken(TrinoParser.QUOTED_IDENTIFIER_, 0); }
 		public QuotedIdentifierContext(IdentifierContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterQuotedIdentifier(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitQuotedIdentifier(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class DigitIdentifierContext extends IdentifierContext {
 		public TerminalNode DIGIT_IDENTIFIER_() { return getToken(TrinoParser.DIGIT_IDENTIFIER_, 0); }
 		public DigitIdentifierContext(IdentifierContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDigitIdentifier(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDigitIdentifier(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class UnquotedIdentifierContext extends IdentifierContext {
@@ -21193,14 +18617,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(NonReservedContext.class,0);
 		}
 		public UnquotedIdentifierContext(IdentifierContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterUnquotedIdentifier(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitUnquotedIdentifier(this);
-		}
 	}
 
 	public final IdentifierContext identifier() throws RecognitionException {
@@ -21494,42 +18910,18 @@ public class TrinoParser extends Parser {
 		public TerminalNode DECIMAL_VALUE_() { return getToken(TrinoParser.DECIMAL_VALUE_, 0); }
 		public TerminalNode MINUS_() { return getToken(TrinoParser.MINUS_, 0); }
 		public DecimalLiteralContext(NumberContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDecimalLiteral(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDecimalLiteral(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class DoubleLiteralContext extends NumberContext {
 		public TerminalNode DOUBLE_VALUE_() { return getToken(TrinoParser.DOUBLE_VALUE_, 0); }
 		public TerminalNode MINUS_() { return getToken(TrinoParser.MINUS_, 0); }
 		public DoubleLiteralContext(NumberContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterDoubleLiteral(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitDoubleLiteral(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class IntegerLiteralContext extends NumberContext {
 		public TerminalNode INTEGER_VALUE_() { return getToken(TrinoParser.INTEGER_VALUE_, 0); }
 		public TerminalNode MINUS_() { return getToken(TrinoParser.MINUS_, 0); }
 		public IntegerLiteralContext(NumberContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterIntegerLiteral(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitIntegerLiteral(this);
-		}
 	}
 
 	public final NumberContext number() throws RecognitionException {
@@ -21625,14 +19017,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(String_Context.class,0);
 		}
 		public StringUserContext(AuthorizationUserContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterStringUser(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitStringUser(this);
-		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class IdentifierUserContext extends AuthorizationUserContext {
@@ -21640,14 +19024,6 @@ public class TrinoParser extends Parser {
 			return getRuleContext(IdentifierContext.class,0);
 		}
 		public IdentifierUserContext(AuthorizationUserContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterIdentifierUser(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitIdentifierUser(this);
-		}
 	}
 
 	public final AuthorizationUserContext authorizationUser() throws RecognitionException {
@@ -22124,14 +19500,6 @@ public class TrinoParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_nonReserved; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).enterNonReserved(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof TrinoParserListener ) ((TrinoParserListener)listener).exitNonReserved(this);
-		}
 	}
 
 	public final NonReservedContext nonReserved() throws RecognitionException {
